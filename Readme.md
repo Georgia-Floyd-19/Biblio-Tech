@@ -59,15 +59,18 @@ bibliotech/
 ├── app.py                  # Point d'entrée Streamlit
 ├── config.py               # Configuration (variables d'environnement)
 ├── database.py             # Connexion MongoDB et index
-├── models.py               # Modèles de données
+├── models.py               # Schémas de données documentés
 ├── services.py             # Logique métier
-├── utils.py                # Fonctions utilitaires
+├── utils.py                # Fonctions utilitaires (CSS, sidebar, helpers)
+├── seed.py                 # Peuplement initial de la base
+├── test.py                 # Script de test de connexion
 ├── pages/
 │   ├── catalogue.py        # Gestion du catalogue (CRUD)
-│   ├── connexion.py        # Authentification
+│   ├── connexion.py        # Authentification (login / inscription)
 │   ├── recherche.py        # Recherche avancée
 │   ├── emprunts.py         # Gestion des emprunts (bibliothécaire)
 │   ├── mes_emprunts.py     # Mes emprunts (étudiant)
+│   ├── avis.py             # Avis et notation
 │   └── tableau_de_bord.py  # Statistiques (bibliothécaire)
 ├── requirements.txt        # Dépendances Python
 ├── .env.example            # Variables d'environnement (template)
@@ -85,4 +88,5 @@ bibliotech/
 
 ## Déploiement
 
-L'application est déployée sur [Streamlit Community Cloud](https://bibliotech.streamlit.app).
+L'application peut être déployée sur [Streamlit Community Cloud](https://bibliotech.streamlit.app).  
+*(Remplacer l'URL ci-dessus par l'URL réelle après déploiement.)*
