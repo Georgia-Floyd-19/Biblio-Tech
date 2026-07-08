@@ -1,4 +1,4 @@
-# BiblioTech 📚
+# BiblioTech
 
 Plateforme de gestion de bibliothèque collaborative — projet NoSQL (Session 4).
 
@@ -86,7 +86,6 @@ bibliotech/
 4. **Avis et notes** — Notation des documents empruntés
 5. **Tableau de bord** — Statistiques via aggregation pipeline MongoDB
 
-## Déploiement
+## Deploiement (optionnel)
 
-L'application peut être déployée sur [Streamlit Community Cloud](https://bibliotech.streamlit.app).  
-*(Remplacer l'URL ci-dessus par l'URL réelle après déploiement.)*
+L'application peut etre deployee sur Streamlit Community Cloud ou tout autre service compatible.
